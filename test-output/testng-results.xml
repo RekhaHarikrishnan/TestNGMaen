@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="720" started-at="2021-07-04T13:18:27 IST" finished-at="2021-07-04T13:18:28 IST">
+    <groups>
+      <group name="{ colour}">
+        <method signature="GroupingMethod.green()[pri:0, instance:org.testng.GroupingMethod@3327bd23]" name="green" class="org.testng.GroupingMethod"/>
+        <method signature="GroupingMethod.red()[pri:0, instance:org.testng.GroupingMethod@3327bd23]" name="red" class="org.testng.GroupingMethod"/>
+      </group> <!-- { colour} -->
+    </groups>
+    <test name="Default test" duration-ms="720" started-at="2021-07-04T13:18:27 IST" finished-at="2021-07-04T13:18:28 IST">
+      <class name="org.testng.GroupingMethod">
+        <test-method status="PASS" signature="books()[pri:0, instance:org.testng.GroupingMethod@3327bd23]" name="books" duration-ms="51" started-at="2021-07-04T13:18:28 IST" finished-at="2021-07-04T13:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- books -->
+        <test-method status="PASS" signature="green()[pri:0, instance:org.testng.GroupingMethod@3327bd23]" name="green" duration-ms="9" started-at="2021-07-04T13:18:28 IST" finished-at="2021-07-04T13:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- green -->
+        <test-method status="PASS" signature="notes()[pri:0, instance:org.testng.GroupingMethod@3327bd23]" name="notes" duration-ms="23" started-at="2021-07-04T13:18:28 IST" finished-at="2021-07-04T13:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notes -->
+        <test-method status="PASS" signature="red()[pri:0, instance:org.testng.GroupingMethod@3327bd23]" name="red" duration-ms="13" started-at="2021-07-04T13:18:28 IST" finished-at="2021-07-04T13:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- red -->
+      </class> <!-- org.testng.GroupingMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
